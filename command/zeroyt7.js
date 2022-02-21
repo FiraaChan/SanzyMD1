@@ -616,7 +616,7 @@ Translate : ${resultnya.Translate}`
 let buttons = [{buttonId: `doaharian`, buttonText: {displayText: 'NEXT⏩'}, type: 1}]
 let buttonMessage = {
 text: txt,
-footerText: `𝑺𝒂𝒏𝒛𝒚`,
+footerText: `𝐟𝐢𝐫𝐚𝐚ʙᴏᴛ`,
 buttons: buttons,
 headerType: 2
 }
@@ -634,7 +634,7 @@ Translation : ${resultnya.translation}`
 let buttons = [{buttonId: `tahlil`, buttonText: {displayText: 'NEXT⏩'}, type: 1}]
 let buttonMessage = {
 text: txt,
-footerText: `𝑺𝒂𝒏𝒛𝒚`,
+footerText: `𝐟𝐢𝐫𝐚𝐚ʙᴏᴛ`,
 buttons: buttons,
 headerType: 2
 }
@@ -652,7 +652,7 @@ Tnc : ${resultnya.tnc}`
 let buttons = [{buttonId: `wirid`, buttonText: {displayText: 'NEXT⏩'}, type: 1}]
 let buttonMessage = {
 text: txt,
-footerText: `𝑺𝒂𝒏𝒛𝒚`,
+footerText: `𝐟𝐢𝐫𝐚𝐚ʙᴏᴛ`,
 buttons: buttons,
 headerType: 2
 }
@@ -682,7 +682,7 @@ Terjemahan : ${resultnya.terjemahan}`
 let buttons = [{buttonId: `bacaansholat`, buttonText: {displayText: 'NEXT⏩'}, type: 1}]
 let buttonMessage = {
 text: txt,
-footerText: `𝑺𝒂𝒏𝒛𝒚`,
+footerText: `𝐟𝐢𝐫𝐚𝐚ʙᴏᴛ`,
 buttons: buttons,
 headerType: 2
 }
@@ -701,7 +701,7 @@ Terjemahan : ${resultnya.terjemahan}`
 let buttons = [{buttonId: `niatsholat`, buttonText: {displayText: 'NEXT⏩'}, type: 1}]
 let buttonMessage = {
 text: txt,
-footerText: `𝑺𝒂𝒏𝒛𝒚`,
+footerText: `𝐟𝐢𝐫𝐚𝐚ʙᴏᴛ`,
 buttons: buttons,
 headerType: 2
 }
@@ -720,7 +720,7 @@ Translate En : ${resultnya.translate_en}`
 let buttons = [{buttonId: `asmaulhusna`, buttonText: {displayText: 'NEXT⏩'}, type: 1}]
 let buttonMessage = {
 text: txt,
-footerText: `𝑺𝒂𝒏𝒛𝒚`,
+footerText: `𝐟𝐢𝐫𝐚𝐚ʙᴏᴛ`,
 buttons: buttons,
 headerType: 2
 }
@@ -742,7 +742,7 @@ degreesLongitude: 0,
 jpegThumbnail: imagenya,
 },
 hydratedContentText: `Title : ${webapi.result.title}\nQuality : ${webapi.result.quality}\nSize : ${webapi.result.size}\nViews : ${webapi.result.views}\nLikes : ${webapi.result.likes}\nDislike : ${webapi.result.dislike}\nChannel : ${webapi.result.channel}\nUpload Date : ${webapi.result.uploadDate}\nDesc : ${webapi.result.desc}`,
-hydratedFooterText: `𝑺𝒂𝒏𝒛𝒚`,
+hydratedFooterText: `𝐟𝐢𝐫𝐚𝐚ʙᴏᴛ`,
 hydratedButtons: [{
 urlButton: {
 displayText: '𝑴𝒚 𝒊𝒏𝒔𝒕𝒂𝒈𝒓𝒂𝒎',
@@ -774,7 +774,7 @@ case 'ytmp44': {
 if (!text) throw 'Masukkan Link Youtube Nya'
 m.reply(mess.wait)
 webapi = await fetchJson(api('zeroyt7', '/ytMp4', { url: text }, 'apikey'))
-zeroyt7.sendMessage(m.chat, { video: { url: webapi.result.result }, caption: `𝑫𝒐𝒏𝒆.. 𝑫𝒐𝒏'𝒕 𝒇𝒐𝒓𝒈𝒆𝒕 𝒕𝒐 𝒔𝒖𝒃𝒔𝒄𝒓𝒊𝒃𝒆 𝒎𝒚 𝒚𝒐𝒖𝒕𝒖𝒃𝒆 : 𝒔𝒂𝒏𝒛𝒚 𝒚𝒕`}, { quoted: ftroli })
+zeroyt7.sendMessage(m.chat, { video: { url: webapi.result.result }, caption: `𝑫𝒐𝒏𝒆.. 𝑫𝒐𝒏'𝒕 𝒇𝒐𝒓𝒈𝒆𝒕 𝒕𝒐 𝒔𝒖𝒃𝒔𝒄𝒓𝒊𝒃𝒆 𝒎𝒚 𝒚𝒐𝒖𝒕𝒖𝒃𝒆 : 𝐟𝐢𝐫𝐚`}, { quoted: ftroli })
 }
 break
 case 'ytmp3': {
@@ -791,7 +791,7 @@ degreesLongitude: 0,
 jpegThumbnail: imagenya,
 },
 hydratedContentText: `Title : ${webapi.result.title}\nSize : ${webapi.result.size}\nViews : ${webapi.result.views}\nLikes : ${webapi.result.likes}\nDislike : ${webapi.result.dislike}\nChannel : ${webapi.result.channel}\nUpload Date : ${webapi.result.uploadDate}\nDesc : ${webapi.result.desc}`,
-hydratedFooterText: `𝑺𝒂𝒏𝒛𝒚`,
+hydratedFooterText: `𝐟𝐢𝐫𝐚𝐚ʙᴏᴛ`,
 hydratedButtons: [{
 urlButton: {
 displayText: '𝑹𝒆𝒔 𝑨𝒑𝒊',
@@ -841,7 +841,7 @@ webapi = await fetchJson(api('zeroyt7', '/tiktokvideo', { url: text }, 'apikey')
 let buttons = [{buttonId: `nowm ${isUrl(text)}`, buttonText: {displayText: 'NO WM'}, type: 1},{buttonId: `wm ${isUrl(text)}`, buttonText: {displayText: 'WM'}, type: 1}]
 let buttonMessage = {
 text: `Silahkan Pilih File Yang Ingin Di Download`,
-footerText: `𝑺𝒂𝒏𝒛𝒚`,
+footerText: `𝐟𝐢𝐫𝐚𝐚ʙᴏᴛ`,
 buttons: buttons,
 headerType: 2
 }
@@ -904,7 +904,7 @@ webapi = await fetchJson(api('zeroyt7', '/bijak', {},'apikey'))
 let buttons = [{buttonId: `katabijak`, buttonText: {displayText: 'NEXT⏩'}, type: 1}]
 let buttonMessage = {
 text: `Kata Bijak : ${webapi.result}`,
-footerText: `𝑺𝒂𝒏𝒛𝒚`,
+footerText: `𝐟𝐢𝐫𝐚𝐚ʙᴏᴛ`,
 buttons: buttons,
 headerType: 2
 }
@@ -917,7 +917,7 @@ webapi = await fetchJson(api('zeroyt7', '/fakta', {},'apikey'))
 let buttons = [{buttonId: `fakta`, buttonText: {displayText: 'NEXT⏩'}, type: 1}]
 let buttonMessage = {
 text: `Fakta : ${webapi.result}`,
-footerText: `𝑺𝒂𝒏𝒛𝒚`,
+footerText: `𝐟𝐢𝐫𝐚𝐚ʙᴏᴛ`,
 buttons: buttons,
 headerType: 2
 }
@@ -930,7 +930,7 @@ webapi = await fetchJson(api('zeroyt7', '/motivasi', {},'apikey'))
 let buttons = [{buttonId: `motivasi`, buttonText: {displayText: 'NEXT⏩'}, type: 1}]
 let buttonMessage = {
 text: `Motivasi : ${webapi.result}`,
-footerText: `𝑺𝒂𝒏𝒛??`,
+footerText: `𝐟𝐢𝐫𝐚𝐚ʙᴏᴛ`,
 buttons: buttons,
 headerType: 2
 }
@@ -943,7 +943,7 @@ webapi = await fetchJson(api('zeroyt7', '/quotes', {},'apikey'))
 let buttons = [{buttonId: `quotes`, buttonText: {displayText: 'NEXT⏩'}, type: 1}]
 let buttonMessage = {
 text: `Quotes : ${webapi.quotes}`,
-footerText: `𝑺𝒂𝒏𝒛𝒚`,
+footerText: `𝐟𝐢𝐫𝐚𝐚ʙᴏᴛ`,
 buttons: buttons,
 headerType: 2
 }
@@ -956,7 +956,7 @@ webapi = await fetchJson(api('zeroyt7', '/bucin', {},'apikey'))
 let buttons = [{buttonId: `bucin`, buttonText: {displayText: 'NEXT⏩'}, type: 1}]
 let buttonMessage = {
 text: `Bucin : ${webapi.result.Bucin}`,
-footerText: `𝑺𝒂𝒏𝒛𝒚`,
+footerText: `𝐟𝐢𝐫𝐚𝐚ʙᴏᴛ`,
 buttons: buttons,
 headerType: 2
 }
@@ -969,7 +969,7 @@ webapi = await fetchJson(api('zeroyt7', '/Pantun', {},'apikey'))
 let buttons = [{buttonId: `pantun`, buttonText: {displayText: 'NEXT⏩'}, type: 1}]
 let buttonMessage = {
 text: `Pantun : ${webapi.result.Pantun}`,
-footerText: `𝑺𝒂𝒏𝒛𝒚`,
+footerText: `𝐟𝐢𝐫𝐚𝐚ʙᴏᴛ`,
 buttons: buttons,
 headerType: 2
 }
@@ -982,7 +982,7 @@ webapi = await fetchJson(api('zeroyt7', '/cerpen', {},'apikey'))
 let buttons = [{buttonId: `cerpen`, buttonText: {displayText: 'NEXT⏩'}, type: 1}]
 let buttonMessage = {
 text: `Title : ${webapi.result.title}\nPengarang : ${webapi.result.pengarang}\nKategori : ${webapi.result.kategori}\nCerpen : ${webapi.result.cerpen}`,
-footerText: `𝑺𝒂𝒏𝒛𝒚`,
+footerText: `𝐟𝐢𝐫𝐚𝐚ʙᴏᴛ`,
 buttons: buttons,
 headerType: 2
 }
@@ -1034,7 +1034,7 @@ case 'ttp': {
 if (!text) throw 'Teks Nya Mana ?'
 m.reply(mess.wait)
 webapi = await getBuffer(api('zeroyt7', '/ttp', { text: text }, 'apikey'))
-zeroyt7.sendMessage(m.chat, {image: webapi, caption: `Done Nih... Jangan Lupa Subscibe Sanzy YT`}, {quoted:ftroli})
+zeroyt7.sendMessage(m.chat, {image: webapi, caption: `Done Nih... Jangan Lupa Subscibe 𝐟𝐢𝐫𝐚`}, {quoted:ftroli})
 }
 break
 case 'blackpink':
@@ -1049,7 +1049,7 @@ case 'gradient': {
 if (!text) throw 'Teks Nya Mana ?'
 m.reply(mess.wait)
 webapi = await fetchJson(api('zeroyt7', `/${command}`, { text: text }, 'apikey'))
-zeroyt7.sendMessage(m.chat, { image: { url: webapi.data }, caption: `Done Nih... Don't forget to subscribe my YouTube : sanzy yt`}, { quoted: ftroli })
+zeroyt7.sendMessage(m.chat, { image: { url: webapi.data }, caption: `Done Nih... Don't forget to subscribe my YouTube : 𝐟𝐢𝐫𝐚𝐚`}, { quoted: ftroli })
 }
 break
 
@@ -1073,7 +1073,7 @@ case 'cewekthailand':
 case 'cewekvietnam': {
 m.reply(mess.wait)
 webapi = await fetchJson(api('zeroyt7', `/${command}`, {}, 'apikey'))
-zeroyt7.sendMessage(m.chat, { image: { url: webapi.result.url }, caption: `Done Nih... Don't forget to subscribe my YouTube : sanzy yt`}, { quoted: ftroli })
+zeroyt7.sendMessage(m.chat, { image: { url: webapi.result.url }, caption: `Done Nih... Don't forget to subscribe my YouTube : 𝐟𝐢𝐫𝐚`}, { quoted: ftroli })
 }
 break
 
@@ -1095,7 +1095,7 @@ case 'sfwneko':
 case 'tentacles': {
 m.reply(mess.wait)
 webapi = await fetchJson(api('zeroyt7', `/${command}`, {}, 'apikey'))
-zeroyt7.sendMessage(m.chat, { image: { url: webapi.result }, caption: `Done Nih... Don't forget to subscribe my YouTube : sanzy yt`}, { quoted: ftroli })
+zeroyt7.sendMessage(m.chat, { image: { url: webapi.result }, caption: `Done Nih... Don't forget to subscribe my YouTube : 𝐟𝐢𝐫𝐚`}, { quoted: ftroli })
 }
 break
 case 'xnxxsearch': {
