@@ -155,149 +155,250 @@ switch(command) {
 case 'menu': case 'help': {
 txt =`⭓Group Menu
 ${simbol} ${prefix}revoke
+
 ${simbol} ${prefix}add
+
 ${simbol} ${prefix}kick
+
 ${simbol} ${prefix}promote
+
 ${simbol} ${prefix}demote
+
 ${simbol} ${prefix}setname
+
 ${simbol} ${prefix}setprofile
+
 ${simbol} ${prefix}group
+
 ${simbol} ${prefix}linkgroup
+
 ${simbol} ${prefix}hidetag
+
 ${simbol} ${prefix}tagall
 
 ⭓Sticker Menu
 ${simbol} ${prefix}sticker
+
 ${simbol} ${prefix}smeme
+
 ${simbol} ${prefix}togif
+
 ${simbol} ${prefix}tomp4
+
 ${simbol} ${prefix}tomp3
+
 ${simbol} ${prefix}toimage
 
 ⭓Owner Menu
 ${simbol} ${prefix}block
+
 ${simbol} ${prefix}unblock
+
 ${simbol} ${prefix}eval
+
 ${simbol} ${prefix}public
+
 ${simbol} ${prefix}self
+
 ${simbol} ${prefix}ping
+
 ${simbol} ${prefix}owner
 
 ⭓Islami Menu
 ${simbol} ${prefix}doaharian
+
 ${simbol} ${prefix}tahlil
+
 ${simbol} ${prefix}wirid
+
 ${simbol} ${prefix}ayatkursi
+
 ${simbol} ${prefix}bacaansholat
+
 ${simbol} ${prefix}niatsholat
+
 ${simbol} ${prefix}asmaulhusna
 
 ⭓Anime Menu 
 ${simbol} ${prefix}kusonimesearch
+
 ${simbol} ${prefix}manggatoon
+
 ${simbol} ${prefix}chara
+
 ${simbol} ${prefix}anime
 
 ⭓Downloader Menu
 ${simbol} ${prefix}ytmp4
+
 ${simbol} ${prefix}ytmp3
+
 ${simbol} ${prefix}ytplay
+
 ${simbol} ${prefix}tiktokdl
+
 ${simbol} ${prefix}mediafiredl
+
 ${simbol} ${prefix}igfoto
+
 ${simbol} ${prefix}igvideo
 
 ⭓Random Menu
 ${simbol} ${prefix}katabijak
+
 ${simbol} ${prefix}fakta
+
 ${simbol} ${prefix}motivasi
+
 ${simbol} ${prefix}quotes
+
 ${simbol} ${prefix}bucin
+
 ${simbol} ${prefix}pantun
+
 ${simbol} ${prefix}cerpen
+
 ${simbol} ${prefix}quotesanime
 
 ⭓Image Maker
 ${simbol} ${prefix}ttp
+
 ${simbol} ${prefix}blackpink
+
 ${simbol} ${prefix}neon
+
 ${simbol} ${prefix}matrix
+
 ${simbol} ${prefix}joker
+
 ${simbol} ${prefix}devil
+
 ${simbol} ${prefix}transformer
+
 ${simbol} ${prefix}thunder
+
 ${simbol} ${prefix}harry
+
 ${simbol} ${prefix}gradient
 
 ⭓Asupan Menu
 ${simbol} ${prefix}asupanbocil
+
 ${simbol} ${prefix}asupangheayubi
+
 ${simbol} ${prefix}asupanrika
+
 ${simbol} ${prefix}asupansantuy
+
 ${simbol} ${prefix}asupanukhty
+
 ${simbol} ${prefix}asupan
+
 ${simbol} ${prefix}cewekchina
+
 ${simbol} ${prefix}cewekindonesia
+
 ${simbol} ${prefix}cewekjapan
+
 ${simbol} ${prefix}cewekkorea
+
 ${simbol} ${prefix}cewekmalaysia
+
 ${simbol} ${prefix}cewekthailand
+
 ${simbol} ${prefix}cewekvietnam
 
 ⭓Nfsw Menu
 ${simbol} ${prefix}ahegao
+
 ${simbol} ${prefix}ass
+
 ${simbol} ${prefix}bdsm
+
 ${simbol} ${prefix}cuckold
+
 ${simbol} ${prefix}cum
+
 ${simbol} ${prefix}ero
+
 ${simbol} ${prefix}femdom
+
 ${simbol} ${prefix}foot
+
 ${simbol} ${prefix}hentai
+
 ${simbol} ${prefix}jahy
+
 ${simbol} ${prefix}manga
+
 ${simbol} ${prefix}nsfwneko
+
 ${simbol} ${prefix}tentacles
+
 ${simbol} ${prefix}xnxxsearch
+
 ${simbol} ${prefix}xnxxdl
 
 ⭓Primbon Menu
 ${simbol} ${prefix}artinama
+
 ${simbol} ${prefix}cariresep
 
 ⭓Search Menu
 ${simbol} ${prefix}liriklagu
+
 ${simbol} ${prefix}wikisearch
+
 ${simbol} ${prefix}herodetails
+
 ${simbol} ${prefix}dafontsearch
+
 ${simbol} ${prefix}pinterest
+
 ${simbol} ${prefix}linkwa
+
 ${simbol} ${prefix}playstore
 
 ⭓Stalk Menu
 ${simbol} ${prefix}ghstalk
+
 ${simbol} ${prefix}igstalk
 
 ⭓Information Menu
 ${simbol} ${prefix}covid
+
 ${simbol} ${prefix}gempa
+
 ${simbol} ${prefix}tribunnews
+
 ${simbol} ${prefix}kompas
+
 ${simbol} ${prefix}film
+
 ${simbol} ${prefix}jadwalbola
+
 ${simbol} ${prefix}jadwaltv
+
 ${simbol} ${prefix}jadwalsholat
 
 ⭓Wallpaper Menu
 ${simbol} ${prefix}accelworld
+
 ${simbol} ${prefix}animegirl
+
 ${simbol} ${prefix}codegeas
+
 ${simbol} ${prefix}naruto
+
 ${simbol} ${prefix}onepiece
+
 ${simbol} ${prefix}samuraix
+
 ${simbol} ${prefix}tokyoghoul
 ${simbol} ${prefix}tokyorevenger
+
 ${simbol} ${prefix}transformerwp
+
 ${simbol} ${prefix}vocaloid`
 let message = await prepareWAMessageMedia({ image: fs.readFileSync('./image/sanzy2.jpg') }, { upload: zeroyt7.waUploadToServer })
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -307,8 +408,8 @@ imageMessage: message.imageMessage,
 hydratedContentText: txt,
 hydratedButtons: [{
 urlButton: {
-displayText: '𝑹𝒆𝒔 𝑨𝒑𝒊',
-url: 'https://sanzykey.herokuapp.com/api'
+displayText: 'GithubOwner',
+url: 'https://github.com/FiraaChan'
 }
 }, {
 urlButton: {
